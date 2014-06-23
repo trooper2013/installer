@@ -91,7 +91,7 @@ def check_java
   
   version = /[0-9]+\.[0-9]+\.[\.0-9_]+/.match(`#{java} -version 2>&1| grep "java version"`).to_s
   version_numbers = version.split('.')
-  if (version_numbers[1].to_i < 7) or (version_numbers[2].split('_')[1].to_i < JAVA_MIN_PATCH)
+  if (version_numbers[1].to_i < 7) or (version_numbers[1].to_i == 7 && version_numbers[2].split('_')[1].to_i < JAVA_MIN_PATCH)
     return error_invalid_java_version(version)
   end
 
