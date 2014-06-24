@@ -16,7 +16,7 @@ Optional
 
 
 The installer automatically installs Maven if it does not find it on the PATH. You must install Java Development Kit 1.7 (update 51 or above) yourself and correctly export your JAVA_HOME environment variable. 
-You can add thes lines to your .profile, or .bashrc. 
+You can add these lines to your .profile, or .bashrc. 
 
 ```
 # if /usr/libexec/java_home does not point to the latest installation of Java, then set it manually. 
@@ -73,8 +73,8 @@ brew remove mab
 ```
 Linux
 -----
-TBD
+Future
 
 Windows
 -------
-TBD
+Future
