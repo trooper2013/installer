@@ -3,7 +3,7 @@ Magnet App Builder Installer
 
 Version
 -------
- - Stable: 2.3.0_M9.1
+ - Stable: 2.3.0_M10.1
 
 Requirements
 ------------
