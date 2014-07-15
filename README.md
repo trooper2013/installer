@@ -59,7 +59,7 @@ mysql.server start
 To install future versions of mab, but keep the old version
 ```
 brew unlink mab
-brew install https://raw.githubusercontent.com/etexier/installer/master/mab.rb
+brew install https://raw.githubusercontent.com/magnetsystems/installer/master/mab.rb
 ```
 
 You can switch version the following way (assuming you installed a previous version):
