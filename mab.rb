@@ -210,8 +210,8 @@ end
 #
 class Mab < Formula
   homepage 'http://factory.magnet.com'
-  url "https://raw.githubusercontent.com/magnetsystems/installer/master/magnet-tools-cli-installer-2.3.0_RC3.tgz"
-  sha1 '0df0782458c16b8a0b41ef8452b8e5bbc7d57fa4'
+  url "https://raw.githubusercontent.com/magnetsystems/installer/master/magnet-tools-cli-installer-2.3.0.tgz"
+  sha1 'bf7776ba0b3a604fc84b777093408c0b6882d843'
 
 
   option 'with-mysql', 'MySQL will be installed'
