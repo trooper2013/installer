@@ -68,7 +68,7 @@ end
 class Mob < Formula
   homepage 'http://factory.magnet.com'
   url "https://raw.githubusercontent.com/magnetsystems/installer/master/magnet-tools-cli-mob-installer-2.3.0-SNAPSHOT.tar.gz"
-  sha1 '5d5ed452b0f3243f4981bc1ea25a6d0c7d60202c'
+  sha1 '1c15d08dd06b14a7973ad0df37c04747af2c712d'
 
   depends_on JavaDependency => :recommended
 
